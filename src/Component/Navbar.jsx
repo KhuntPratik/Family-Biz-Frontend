@@ -75,8 +75,8 @@ export default function Navbar() {
         {/* Family Logo & Brand */}
         <Box sx={{ display: "flex", alignItems: "center", gap: 2 }}>
           <img
-            src="/taraviya-logo.jpg"
-            alt="Taraviya Logo"
+            src="/KhuntParivar.png"
+            alt="Khunt Logo"
             style={{
               height: 50,
               borderRadius: "4px",
