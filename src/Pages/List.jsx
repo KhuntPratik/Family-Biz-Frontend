@@ -356,7 +356,7 @@ export default function UserFamilyList() {
                             }}
                           >
                             <img
-                              src={`${url}/uploads/${row.BusinessLogo}`}
+                              src={row.BusinessLogo}
                               alt={row.BusinessName}
                               style={{
                                 width: "100%",

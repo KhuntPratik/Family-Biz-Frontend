@@ -229,8 +229,8 @@ const BusinessDetail = () => {
                         {formData.BusinessLogo || formData.BusinessCard ? (
                             <Box
                                 component="img"
-                                src={`${API_URL}/uploads/${formData.BusinessCard || formData.BusinessLogo
-                                    }`}
+                                src={formData.BusinessCard || formData.BusinessLogo
+                                    }
                                 alt={formData.BusinessName}
                                 sx={{
                                     width: "100%",

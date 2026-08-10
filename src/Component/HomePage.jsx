@@ -214,7 +214,7 @@ export default function HomePage() {
                   <div className="hp-card-img-wrapper">
                     {row.BusinessLogo ? (
                       <img
-                        src={`${API_URL}/uploads/${row.BusinessLogo}`}
+                        src={row.BusinessLogo}
                         className="hp-card-img"
                         alt={row.BusinessName}
                       />

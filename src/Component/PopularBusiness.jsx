@@ -88,7 +88,7 @@ const fetchBusiness = async () => {
                                             {/* Image */}
                                             {row.business.BusinessLogo ? (
                                                 <img
-                                                    src={`${url}/uploads/${row.business.BusinessLogo}`}
+                                                    src={row.business.BusinessLogo}
                                                     className="card-img-top"
                                                     alt={row.BusinessName}
                                                     style={{ height: 160, objectFit: "cover" }}

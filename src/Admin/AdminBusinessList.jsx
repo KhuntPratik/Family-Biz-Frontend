@@ -203,7 +203,7 @@ export default function AdminFamilyList() {
                         <td>
                           {row.BusinessLogo ? (
                             <img
-                              src={`${API_URL}/uploads/${row.BusinessLogo}`}
+                              src={row.BusinessLogo}
                               alt="logo"
                               style={{
                                 width: "80px",
